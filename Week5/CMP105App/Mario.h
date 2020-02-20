@@ -14,4 +14,6 @@ protected:
 	Animation walk;
 	Animation swim;
 	Animation duck;
+	Animation* current = &walk;
+	bool moving = true;
 };

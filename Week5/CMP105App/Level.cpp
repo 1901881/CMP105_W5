@@ -5,6 +5,7 @@ Level::Level(sf::RenderWindow* hwnd, Input* in)
 	window = hwnd;
 	input = in;
 	zombie = new Zombie();
+	mario = new Mario();
 
 	// initialise game objects
 	//zombie
